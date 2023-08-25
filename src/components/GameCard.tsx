@@ -4,7 +4,7 @@ import PlatformIconList from "./PlatformIconList";
 import CriticScore from "./CriticScore";
 import getCroppedImageUrl from "../services/img-url";
 import {Link} from "react-router-dom";
-import {Game} from "../entities/game";
+import Game from "../entities/Game";
 
 interface Props {
   game: Game
